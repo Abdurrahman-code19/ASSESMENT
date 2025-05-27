@@ -20,6 +20,32 @@
             <button>Get Tickets</button>
         </nav>
     </header>
+
+    <footer class="event-footer">
+  <div class="footer-header">
+    <h1>Design & Experience</h1>
+  </div>
+   <button>Get Tickets</button>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h2>About this Event</h2>
+      <p>Join us on 4th of April while we open new prospects of trending designs and client requirements.</p>
+    </div>
+    <div class="footer-section">
+      <h2>Address</h2>
+      <p>500 Terry Francois Street<br>San Francisco, CA 94158</p>
+    </div>
+    <div class="footer-section">
+      <h2>Date & Time</h2>
+      <p>04 April 2023<br>9:00 AM – 3:00 PM</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>Copyright © 2023 Event Landing Page | Powered By Event Landing Page</p>
+  </div>
+</footer>
+
 </body>
 </html>
 <style>
@@ -60,4 +86,76 @@ a:hover{
     color: #116dff;
     transition: 0.5s;
 }
+.footer-header {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.footer-header h1 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 600;
+}
+.event-footer {
+  background: linear-gradient(to right, #111, #222);
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.85rem;
+  color: #888;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-section {
+    width: 30%;
+  }
+}
+footer button {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    height: 50px;
+    width: 150px;
+    color: #f0f6ff;
+    background-color: #116dff;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Roboto;
+    transition: 0.5s;
+}
+footer button:hover {
+    background-color: #0355da;
+    transition: 0.5s;
+}
+
 </style>
