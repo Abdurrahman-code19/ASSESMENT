@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.925);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 25px;
+    transition: 0.5s;
+}
+.event-tickets {
+    height: 50px;
+    width: 150px;
+    color: #f0f6ff;
+    background-color: #116dff;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: Roboto;
+    transition: 0.5s;
+}
+.event-tickets:hover {
+    background-color: #0355da;
+    transition: 0.5s;
+}
+a:hover {
+    color: #116dff;
+    transition: 0.5s;
+}
+
+/* FOOTER */
+footer {
+    background-color: #191919;
+    padding: 50px 70px;
+}
+.event-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 90px 0;
+    align-items: center;
+}
+footer h1 {
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size: 38px;
+    font-weight: 400;
+}
+.event-footerhead {
+    color: white;
+    font-family: "Noto Serif", serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 39px;
+}
+.event-desc {
+    color: white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+article p {
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* HOME */
+.event-beside {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+.event-design {
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+.event-dateplace {
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.event-challenge {
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+/* ABOUT */
+.event-about {
+    display: flex;
+    justify-content: space-between;
+}
+.event-title {
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 49px;
+}
+.event-des {
+    color: #3a3a3a;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.event-special {
+    color: #3a3a3a;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* SCHEDULE */
+#eventschedule {
+    background-color: #f0f6ff;
+    padding: 100px 0;
+}
+.event-eventrow {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 0 70px;
+    column-gap: 20px;
+}
+.event-time {
+    color: #116dff;
+    font-family: "Noto Serif", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+.event-hd {
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 34px;
+    margin-top: 10px;
+}
+.event-ds {
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: -4px;
+}
+
+/* SPEAKERS */
+.event-speakersrow {
+    display: flex;
+    padding: 0 70px;
+    column-gap: 50px;
+}
+.event-speakername {
+    color: #191919;
+    font-family: "Noto Serif", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.event-speakerjob {
+    color: #3a3a3a;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* ORGANISERS */
+#organisers {
+    background-color: #f0f6ff;
+}
+
+/* SPONSORS */
+#sponsors {
+    justify-items: center;
+}
+.event-logos {
+    display: flex;
+    justify-content: space-between;
+}

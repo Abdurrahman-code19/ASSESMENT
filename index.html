@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Page</title>
+    <title>event</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
@@ -11,151 +12,198 @@
             <img src="event-logo-normal.svg" height="17px">
         </div>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">About Event</a>
-            <a href="#">Schedule</a>
-            <a href="#">Speakers</a>
-            <a href="#">Organizers</a>
-            <a href="#">Sponsors</a>
-            <button>Get Tickets</button>
+            <a href="#home">Home</a>
+            <a href="#about">About Event</a>
+            <a href="#eventschedule">Schedule</a>
+            <a href="#speakers">Speakers</a>
+            <a href="#organisers">Organizers</a>
+            <a href="#sponsors">Sponsors</a>
+            <button class="event-tickets">Get Tickets</button>
         </nav>
     </header>
 
-    <footer class="event-footer">
-  <div class="footer-header">
-    <h1>Design & Experience</h1>
-  </div>
-   <button>Get Tickets</button>
-  <div class="footer-container">
-    <div class="footer-section">
-      <h2>About this Event</h2>
-      <p>Join us on 4th of April while we open new prospects of trending designs and client requirements.</p>
-    </div>
-    <div class="footer-section">
-      <h2>Address</h2>
-      <p>500 Terry Francois Street<br>San Francisco, CA 94158</p>
-    </div>
-    <div class="footer-section">
-      <h2>Date & Time</h2>
-      <p>04 April 2023<br>9:00 AM – 3:00 PM</p>
-    </div>
-  </div>
+    <section id="home" style="margin-top: 40px;">
+        <div class="event-beside" style="align-items: center;">
+            <p class="event-design">Design & Experience</p>
+            <p class="event-dateplace">04 April 2023</p>
+        </div>
+        <div class="event-beside" style="margin-top: -60px;">
+            <p class="event-challenge">The Challenges of Web Innovation</p>
+            <p class="event-dateplace" style="text-align: end;">500 Terry Francois Street San <br> Francisco, CA 94158</p>
+        </div>
+        <div class="event-beside">
+            <img src="event-img.jpg" alt="">
+        </div>
+    </section>
 
-  <div class="footer-bottom">
-    <p>Copyright © 2023 Event Landing Page | Powered By Event Landing Page</p>
-  </div>
-</footer>
+    <section id="about" style="margin-top: 150px; margin-bottom: 150px; padding: 0 70px;">
+        <h1 class="event-event">About the Event</h1>
+        <div class="event-about">
+            <div>
+                <p class="event-des">Are your designs the best? You may. But a design is the best only when it <br> matches your client’s needs and brings more customers. Let us work on this <br> together.</p>
+            </div>
+            <div>
+                <p class="event-special">In this special seminar, we’ll understand the changes observed in client <br> requirements and some realistic designs that work.</p>
+                <button class="event-tickets">Reserve My Spot</button>
+            </div>
+        </div>
+        <div>
+            <p class="event-special">Like every once in a while we need to upgrade a technology to match with <br> the latest trend, so is it with design. It is important to study and understand <br> the client’s needs and merge it with the latest design trend that’ll help attract <br> more customers.</p>
+        </div>
+    </section>
+   
+    <section id="eventschedule" style="margin-bottom: 150px;">
+        <div class="event-about" style="padding: 0 70px;">
+            <h1 class="event-event" style="align-self: self-start;">Event Schedule</h1>
+            <p class="event-special" style="align-self: flex-end;">This isn’t another day-long session repeating the things we know. We’ve designed <br> and framed them well, so every minute introduces a new concept and a different <br> point of view to adopt.</p>
+        </div>
+        <div class="event-eventrow" style="margin-top: 85px;">
+            <div>
+                <time class="event-time">08:45 AM</time>
+                <p class="event-hd">Introduction & <br> Opening</p>
+                <p class="event-ds">Speaker: James Scott</p>
+            </div>
+            <div>
+                <time class="event-time">09:00 AM</time>
+                <p class="event-hd">Current Design <br> Strategies</p>
+                <p class="event-ds">Speaker: Jane Roberts</p>
+            </div>
+            <div>
+                <time class="event-time">10:30 AM</time>
+                <p class="event-hd">Future of Design & <br> Web</p>
+                <p class="event-ds">Speaker: Hank Freeman</p>
+            </div>
+            <div>
+                <time class="event-time">12:30 PM</time>
+                <p class="event-hd">Lunch Time</p>
+                <p class="event-ds">Lunch Time</p>
+            </div>
+        </div>
+        <div class="event-eventrow" style="margin-top: 85px;">
+            <div>
+                <time class="event-time">01:30 PM</time>
+                <p class="event-hd">Client and User <br> Experience</p>
+                <p class="event-ds">Speaker: Robert Reid</p>
+            </div>
+            <div>
+                <time class="event-time">02:30 PM</time>
+                <p class="event-hd">AI & Web Design</p>
+                <p class="event-ds">Speaker: Alex Keller</p>
+            </div>
+            <div>
+                <time class="event-time">03:30 PM</time>
+                <p class="event-hd">Design Flow</p>
+                <p class="event-ds">Speaker: Tina Flores</p>
+            </div>
+            <div>
+                <time class="event-time">05:00 PM</time>
+                <p class="event-hd">Conclusion & QA <br> Session </p>
+                <p class="event-ds">Speaker: Mia Brownn</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="speakers" style="margin-bottom: 150px;">
+        <div class="event-about" style="padding: 0 70px;">
+            <h1 class="event-event" style="align-self: self-start;">Meet the Speakers</h1>
+            <p class="event-special" style="align-self: flex-end;">Our bench of speakers includes some well-established and successful designers <br> who are known to be ruling the industry for years. Join the seminar and take a <br> step closer to being an expert.</p>
+        </div>
+        <div class="event-speakersrow" style="margin-top: 85px;">
+            
+            <div>
+                <img src="event-speaker-1.jpg" alt="" width="100%">
+                <p class="event-speakername">Jane Roberts</p>
+                <p class="event-speakerjob">Sr. Creative Designer</p>
+            </div>
+
+            <div>
+                <img src="event-speaker-2.jpg" alt="" width="100%">
+                <p class="event-speakername">Hank Freeman</p>
+                <p class="event-speakerjob">Web Developer</p>
+            </div>
+
+            <div>
+                <img src="event-speaker-3.jpg" alt="" width="100%">
+                <p class="event-speakername">Tina Flores</p>
+                <p class="event-speakerjob">UX Designer</p>
+            </div>
+
+            <div>
+                <img src="event-speaker-4.jpg" alt="" width="100%">
+                <p class="event-speakername">James Scott</p>
+                <p class="event-speakerjob">UX Analyst</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="organisers" style="padding: 110px 70px;">
+        <div class="event-about">
+            <div>
+                <img src="organisers.jpg" alt="">
+            </div>
+            <div>
+                <h1 class="event-event">About the Organisers</h1>
+                <p class="event-special">We are team Creatives. Having organized over 60+ seminars in 12 different <br> cities in just two years, we understand the latest trends to pick the right topic <br> for our seminars. We have partnered several experts who’ve readily agreed to <br> contribute to this good cause of sharing knowledge with passionate <br> professionals.</p>
+                <p class="event-special">Join this seminar and get a chance to meet us and join our team.</p>
+                <button class="event-tickets" style="width: 200px; margin-top: 15px;">Reserve Your Spot Now!</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsors" style="padding: 0px 70px; margin-top: 100px;">
+        <div class="event-sponsor">
+            <h1 class="event-event" style="text-align: start;">Our Sponsors</h1>
+            <p class="event-special" style="margin-top: -20px;">It is not possible to host several seminars in different locations without helping <br> hands. We have several sponsors who volunteer to help us physically and <br> financially to make things happen. </p>
+        </div>
+    </section>
+    <section style="padding: 0px 70px; margin-bottom: 100px; margin-top: 50px;">
+        <div class="event-logos">
+            <div>
+                <img src="logo-1.svg" alt="">
+            </div>
+            <div>
+                 <img src="logo-2.svg" alt="">
+            </div>
+            <div>
+                <img src="logo-3.svg" alt="">
+            </div>
+            <div>
+                <img src="logo-4.svg" alt="">
+            </div>
+            <div>
+                <img src="logo-5.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h1>Design & Experience</h1>
+        <div class="event-row">
+            <div class="event-footeritems">
+                <p class="event-footerhead">About this Event</p>
+                <p class="event-desc">Join us on 4th of April while we open new prospects <br> of trending designs and client requirements.</p>
+            </div>
+            <div class="event-footeritems">
+                <p class="event-footerhead">Address</p>
+                <p class="event-desc">500 Terry Francois Street <br> San Francisco, CA 94158</p>
+            </div>
+
+            <div class="event-footeritems">
+                <p class="event-footerhead">Date & Time</p>
+                <p class="event-desc">04 April 2023 <br> 9:00 AM – 3:00 PM</p>
+            </div>
+
+            <div class="event-footeritems">
+                <button class="event-tickets">Get Tickets</button>
+            </div>
+
+        </div>
+
+        <article>
+            <p>Copyright © 2025 Event Landing Page | Powered By Event Landing Page</p>
+        </article>
+
+    </footer>
 </body>
 </html>
-<style>
-   body{
-    margin: 0;
-    padding: 30px 70px;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-a{
-   text-decoration: none;
-   color: rgba(0, 0, 0, 0.925);
-   font-family: Roboto;
-   font-size: 16px;
-   font-weight: 400;
-   margin-right: 25px;
-   transition: 0.5s;
-}
-nav button{
-    height: 50px;
-    width: 150px;
-    color: #f0f6ff;
-    background-color: #116dff;
-    border: none;
-    font-weight: 500;
-    font-size: 15px;
-    font-family: Roboto;
-    transition: 0.5s;
-}
-nav button:hover{
-    background-color: #0355da;
-    transition: 0.5s;
-}
-a:hover{
-    color: #116dff;
-    transition: 0.5s;
-}
-.footer-header {
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-.footer-header h1 {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: 600;
-}
-.event-footer {
-  background: linear-gradient(to right, #111, #222);
-  color: #fff;
-  padding: 40px 20px 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.footer-section h2 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.footer-section p {
-  font-size: 0.95rem;
-  line-height: 1.5;
-  color: #ccc;
-}
-
-.footer-bottom {
-  text-align: center;
-  padding-top: 20px;
-  font-size: 0.85rem;
-  color: #888;
-}
-
-@media (min-width: 768px) {
-  .footer-container {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .footer-section {
-    width: 30%;
-  }
-}
-footer button {
-    margin-top: 20px;
-    display: block;
-    margin-left: auto;
-    height: 50px;
-    width: 150px;
-    color: #f0f6ff;
-    background-color: #116dff;
-    border: none;
-    font-weight: 500;
-    font-size: 15px;
-    font-family: Roboto;
-    transition: 0.5s;
-}
-footer button:hover {
-    background-color: #0355da;
-    transition: 0.5s;
-}
-
-</style>
